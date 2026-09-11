@@ -1,0 +1,51 @@
+{
+  "name": "zen-notes-widget",
+  "displayName": "Zen Notes Widget",
+  "version": "2.6.0-personal.1",
+  "description": "Personal multi-note sidebar with a minimal header, floating formatting toolbar, and drag-to-collapse",
+  "author": "jjspscl",
+  "license": "MIT",
+  "compatibility": {
+    "zen": ">=1.7.0"
+  },
+  "features": [
+    "Multiple persistent notes with autosave",
+    "Lean pinned sidebar widget above workspace indicators",
+    "Bold, italic, underline, and strikethrough formatting",
+    "Bullet, numbered, and checklist formatting with markdown shortcuts",
+    "Links with an http/https/mailto scheme allowlist",
+    "15 built-in colour schemes",
+    "Legacy v1/v4 migration into the schema v5 note library",
+    "Dark/light theme matching",
+    "Inline note manager for creating, renaming and deleting",
+    "Selection-only formatting toolbar",
+    "Drag or keyboard resize, collapse and expand"
+  ],
+  "files": {
+    "userChrome": "style.css",
+    "preferences": "preferences.json",
+    "theme": "theme.json"
+  },
+  "preferences": {
+    "enabled": true,
+    "configurable": [
+      "zen.notes.appearance",
+      "zen.notes.collapsed",
+      "zen.notes.height",
+      "zen.notes.preset",
+      "zen.notes.showWorkspaceKey"
+    ]
+  },
+  "tags": [
+    "sidebar",
+    "notes",
+    "productivity",
+    "sticky-note"
+  ],
+  "marketplace": {
+    "submission_ready": true,
+    "zen_store_compatible": false,
+    "css_only": false,
+    "sine_primary": true
+  }
+}

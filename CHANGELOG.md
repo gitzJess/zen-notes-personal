@@ -1,3 +1,11 @@
+## 2.6.0-personal.1 — 2026-09-10
+
+- Redesigned the widget around a note picker and gear menu.
+- Added selection-only floating formatting tools with narrow-sidebar positioning.
+- Added drag collapse/reopen and keyboard resizing.
+- Scoped Escape to the active notes controls and removed the permanent formatting row.
+- Preserved the v5 note library and verified in XHTML, Chromium and Firefox tests.
+
 # Changelog
 
 All notable changes to Zen Notes Widget will be documented in this file.
